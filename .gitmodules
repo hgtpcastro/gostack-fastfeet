@@ -1,0 +1,9 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/lucasbittar/gostack-challenge-03
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/lucasbittar/gostack-challenge-09
+[submodule "mobile"]
+	path = mobile
+	url = https://github.com/lucasbittar/gostack-challenge-10
