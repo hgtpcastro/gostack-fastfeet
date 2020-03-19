@@ -5,3 +5,11 @@
 <h3 align="center">
   GoStack Final Challenge: FastFeet
 </h3>
+
+### Instructions
+
+1 - Clone the project
+```
+git clone --recursive https://github.com/lucasbittar/gostack-fastfeet.git
+```
+We're using a different clone approach because this repository contains submodules for each piece of the app (back-end, front-end and mobile)
