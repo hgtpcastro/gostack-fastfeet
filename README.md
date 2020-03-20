@@ -6,7 +6,7 @@
   GoStack Final Challenge: FastFeet
 </h3>
 
-![FastFeet](https://i.ibb.co/RS1DMhH/mockup.gif)
+<img alt="Fastfeet" title="Fastfeet" src="https://i.ibb.co/RS1DMhH/mockup.gif" />
 
 ## Instructions
 
