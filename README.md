@@ -16,6 +16,11 @@ git clone --recursive https://github.com/lucasbittar/gostack-fastfeet.git
 ```
 We're using a different clone approach because this repository contains submodules for each piece of the application (back-end, front-end and mobile)
 
+Make sure you have the latest updates by running:
+```
+git submodule update --init --recursive
+```
+
 ***
 
 ## Setup back-end
