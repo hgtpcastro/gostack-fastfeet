@@ -6,6 +6,8 @@
   GoStack Final Challenge: FastFeet
 </h3>
 
+![FastFeet](https://i.ibb.co/RS1DMhH/mockup.gif)
+
 ## Instructions
 
 Clone the project
