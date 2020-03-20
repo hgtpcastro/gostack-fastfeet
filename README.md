@@ -16,7 +16,9 @@ git clone --recursive https://github.com/lucasbittar/gostack-fastfeet.git
 ```
 We're using a different clone approach because this repository contains submodules for each piece of the application (back-end, front-end and mobile)
 
-### Setup back-end
+***
+
+## Setup back-end
 Change directory to the backend folder `cd backend` and run `yarn install`.
 
 All of the following commands that has [] wrapped around it are related to the `.env` file. Just duplicate from `.env.example` and update the values.
@@ -55,7 +57,7 @@ yarn dev
 yarn queue
 ```
 
-### Setup front-end
+## Setup front-end
 Change directory to the front-end folder `cd frontend` and run `yarn install`.
 Open `src/services/api.js` and update the `API_URL` variable with the `APP_URL` you specified in the config backend.
 
@@ -64,7 +66,7 @@ Open `src/services/api.js` and update the `API_URL` variable with the `APP_URL` 
 yarn start
 ```
 
-### Setup mobile
+## Setup mobile
 Change directory to the mobile folder `cd mobile` and run `yarn install`.
 Open `src/services/api.js` and update the `API_URL` variable with the `APP_URL` you specified in the config backend.
 The mobile app was tested on the iOS Simulator (iPhone X and iPhone 8), Genymotion (Google Pixel 3) and on an actual Android device (Moto X4).
