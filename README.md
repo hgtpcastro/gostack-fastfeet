@@ -55,6 +55,7 @@ yarn queue
 
 ### Setup front-end
 Change directory to the front-end folder `cd frontend` and run `yarn install`.
+Open `src/services/api.js` and update the `API_URL` variable with the `APP_URL` you specified in the config backend.
 
 - Start server
 ```
@@ -63,7 +64,8 @@ yarn start
 
 ### Setup mobile
 Change directory to the mobile folder `cd mobile` and run `yarn install`.
-The mobile app was tested on the **iOS Simulator* and on an *actual Android device*.
+Open `src/services/api.js` and update the `API_URL` variable with the `APP_URL` you specified in the config backend.
+The mobile app was tested on the iOS Simulator (iPhone X and iPhone 8), Genymotion (Google Pixel 3) and on an actual Android device (Moto X4).
 
 - Build app for Android
 ```
@@ -75,7 +77,10 @@ npx react-native run-android
 npx react-native run-ios
 ```
 
-- Start server
+- Start Metro server
 ```
 yarn start
 ```
+
+## Thanks
+I'd like to thank Rocketseat for this [amazing code bootcamp](https://rocketseat.com.br/gostack)! I had a great time following the classes, working on the challenges, sending questions to the forum whenever I had one, helping the other students with their questions throught the forum and the Discord channel, proving to myself that I really understood and graspped the concept of something. You guys have shown me what a [great community](https://rocketseat.com.br/comunidade) is all about and I'm more than glad to say I'm part of it. Long live Rocketseat to the infinity and beyond!
