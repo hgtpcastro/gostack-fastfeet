@@ -48,6 +48,11 @@ Email: fastfeet@admin.com
 Password: 123456
 ```
 
+- Run migrations
+```
+yarn sequelize db:migrate
+```
+
 - Update the .env variables for Mailtrap and Sentry
 
 At this point you shoud have the back-end all set up and good to go.
